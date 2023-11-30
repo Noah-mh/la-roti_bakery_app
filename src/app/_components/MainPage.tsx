@@ -278,13 +278,13 @@ const MainPage = () => {
                             <div className="flex h-16 items-center justify-between">
                                 {/* Logo (lg+) */}
                                 <div className="hidden lg:flex lg:flex-1 lg:items-center">
-                                    <a href="#">
-                                        <span className="sr-only">Your Company</span>
+                                    <a href="/">
                                         <img
                                             className="h-8 w-auto"
-                                            src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
+                                            src="https://utfs.io/f/3a19ad33-02e0-43af-80be-85850a2464d5-1zbfv.png"
                                             alt=""
                                         />
+                                        <span className="sr-only">La Roti Bakery</span>
                                     </a>
                                 </div>
 
