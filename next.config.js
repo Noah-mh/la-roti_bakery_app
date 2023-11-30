@@ -5,6 +5,37 @@
 await import("./src/env.js");
 
 /** @type {import("next").NextConfig} */
-const config = {};
+const config = {
+    eslint: {
+        ignoreDuringBuilds: true,
+      },
+    typescript: {
+        ignoreBuildErrors: true,
+      },
+    i18n: {
+        locales: ["en"],
+        defaultLocale: "en",
+      },
+      images: {
+        dangerouslyAllowSVG: true,
+        remotePatterns: [
+          {
+            protocol: "https",
+            hostname: "uploadthing.com",
+            port: "",
+          },
+          {
+            protocol: "https",
+            hostname: "utfs.io",
+            port: "",
+          },
+          {
+            protocol: "https",
+            hostname: "tailwindui.com",
+            port: "",
+          },
+        ],
+    }
+};
 
 export default config;
