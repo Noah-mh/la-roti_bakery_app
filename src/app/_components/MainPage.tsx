@@ -19,27 +19,27 @@ const navigation = {
             name: 'Cookies',
             featured: [
                 {
-                    name: 'New Arrivals',
+                    name: 'Cookie A',
                     href: '#',
-                    imageSrc: 'https://tailwindui.com/img/ecommerce-images/mega-menu-category-01.jpg',
+                    imageSrc: 'https://utfs.io/f/3655e4d4-4a9b-4b9e-9a92-3dee068191a7-fqwq6n.jpg',
                     imageAlt: 'Models sitting back to back, wearing Basic Tee in black and bone.',
                 },
                 {
-                    name: 'Basic Tees',
+                    name: 'Cookie A',
                     href: '#',
-                    imageSrc: 'https://tailwindui.com/img/ecommerce-images/mega-menu-category-02.jpg',
+                    imageSrc: 'https://utfs.io/f/3655e4d4-4a9b-4b9e-9a92-3dee068191a7-fqwq6n.jpg',
                     imageAlt: 'Close up of Basic Tee fall bundle with off-white, ochre, olive, and black tees.',
                 },
                 {
-                    name: 'Accessories',
+                    name: 'Cookie A',
                     href: '#',
-                    imageSrc: 'https://tailwindui.com/img/ecommerce-images/mega-menu-category-03.jpg',
+                    imageSrc: 'https://utfs.io/f/3655e4d4-4a9b-4b9e-9a92-3dee068191a7-fqwq6n.jpg',
                     imageAlt: 'Model wearing minimalist watch with black wristband and white watch face.',
                 },
                 {
-                    name: 'Carry',
+                    name: 'Cookie A',
                     href: '#',
-                    imageSrc: 'https://tailwindui.com/img/ecommerce-images/mega-menu-category-04.jpg',
+                    imageSrc: 'https://utfs.io/f/3655e4d4-4a9b-4b9e-9a92-3dee068191a7-fqwq6n.jpg',
                     imageAlt: 'Model opening tan leather long wallet with credit card pockets and cash pouch.',
                 },
             ],
@@ -48,28 +48,28 @@ const navigation = {
             name: 'Breads',
             featured: [
                 {
-                    name: 'New Arrivals',
+                    name: 'Croissant',
                     href: '#',
-                    imageSrc: 'https://tailwindui.com/img/ecommerce-images/mega-menu-01-men-category-01.jpg',
+                    imageSrc: 'https://utfs.io/f/7b7818e9-9da1-49f4-bf77-6add8eb6ea5c-ie200u.jpeg',
                     imageAlt: 'Hats and sweaters on wood shelves next to various colors of t-shirts on hangers.',
                 },
                 {
-                    name: 'Basic Tees',
+                    name: 'Croissant',
                     href: '#',
-                    imageSrc: 'https://tailwindui.com/img/ecommerce-images/mega-menu-01-men-category-02.jpg',
+                    imageSrc: 'https://utfs.io/f/7b7818e9-9da1-49f4-bf77-6add8eb6ea5c-ie200u.jpeg',
                     imageAlt: 'Model wearing light heather gray t-shirt.',
                 },
                 {
-                    name: 'Accessories',
+                    name: 'Croissant',
                     href: '#',
-                    imageSrc: 'https://tailwindui.com/img/ecommerce-images/mega-menu-01-men-category-03.jpg',
+                    imageSrc: 'https://utfs.io/f/7b7818e9-9da1-49f4-bf77-6add8eb6ea5c-ie200u.jpeg',
                     imageAlt:
                         'Grey 6-panel baseball hat with black brim, black mountain graphic on front, and light heather gray body.',
                 },
                 {
-                    name: 'Carry',
+                    name: 'Croissant',
                     href: '#',
-                    imageSrc: 'https://tailwindui.com/img/ecommerce-images/mega-menu-01-men-category-04.jpg',
+                    imageSrc: 'https://utfs.io/f/7b7818e9-9da1-49f4-bf77-6add8eb6ea5c-ie200u.jpeg',
                     imageAlt: 'Model putting folded cash into slim card holder olive leather wallet with hand stitching.',
                 },
             ],
@@ -280,7 +280,7 @@ const MainPage = () => {
                                 <div className="hidden lg:flex lg:flex-1 lg:items-center">
                                     <a href="/">
                                         <img
-                                            className="h-8 w-auto"
+                                            className="h-8 w-auto rounded"
                                             src="https://utfs.io/f/3a19ad33-02e0-43af-80be-85850a2464d5-1zbfv.png"
                                             alt=""
                                         />
