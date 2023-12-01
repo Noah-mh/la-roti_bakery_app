@@ -1,3 +1,4 @@
+"use client"
 import Link from "next/link";
 import { Container } from "@/app/_components/Container";
 import { Instagram } from "lucide-react";
